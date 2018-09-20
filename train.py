@@ -64,7 +64,7 @@ parser.add_argument('--inf_rnn_layers', type=int, default=2, help="Inference RNN
 parser.add_argument('--full_att_type', type=int, default=2)
 
 parser.add_argument('--pos_size', type=int, default=56,
-                    help='how many kinds of POS tags.')
+                    help='how many kinds of POS tags.')  # spaCy 2.0: 51 only (inc '')
 parser.add_argument('--pos_dim', type=int, default=12,
                     help='the embedding dimension for POS tags.')
 parser.add_argument('--ner_size', type=int, default=19,
