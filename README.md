@@ -8,7 +8,7 @@ Requirements
 ------------
 + Python (version 3.5.2)
 + PyTorch (0.2.0)
-+ spaCy (1.x)
++ spaCy (2.0)
 + NumPy
 + JSON Lines
 + MessagePack
